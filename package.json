@@ -1,0 +1,19 @@
+{
+  "name": "sanket-art",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./index.css -o ./tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-preset-env": "^7.4.3",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
+}
